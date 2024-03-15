@@ -1,0 +1,89 @@
+﻿生成启动时间为 2014/12/24 11:05:28。
+     1>项目“E:\programs\kinect_mapping\KinectMapping_online\KinectMapping\KinectMapping.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\KinectMapping.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IOpenNI2\Include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Capture.cpp ICP.cpp KeyPointEsti.cpp main.cpp
+         Capture.cpp
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h(1087): warning C4995: “wcscat”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h(1089): warning C4995: “wcscpy”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: “swprintf”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: “swprintf”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: “swprintf”: 名称被标记为 #pragma deprecated
+         ICP.cpp
+     1>e:\programs\kinect_mapping\kinectmapping_online\kinectmapping\opencv2/flann/logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ICP.cpp(157): warning C4101: “j”: 未引用的局部变量
+     1>ICP.cpp(382): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(388): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(395): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(396): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(397): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(398): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(428): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(429): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(430): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(480): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(481): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(482): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(547): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(548): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(549): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(550): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(557): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(558): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(559): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(563): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(565): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(566): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(570): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(571): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(573): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(577): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(578): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(579): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(582): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(588): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(589): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(590): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ICP.cpp(596): warning C4101: “end”: 未引用的局部变量
+     1>ICP.cpp(596): warning C4101: “start”: 未引用的局部变量
+         KeyPointEsti.cpp
+     1>KeyPointEsti.cpp(17): warning C4101: “end”: 未引用的局部变量
+     1>KeyPointEsti.cpp(17): warning C4101: “start”: 未引用的局部变量
+     1>KeyPointEsti.cpp(56): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>KeyPointEsti.cpp(57): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>KeyPointEsti.cpp(58): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>KeyPointEsti.cpp(59): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>KeyPointEsti.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+         main.cpp
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h(1087): warning C4995: “wcscat”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h(1089): warning C4995: “wcscpy”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: “swprintf”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: “swprintf”: 名称被标记为 #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: “swprintf”: 名称被标记为 #pragma deprecated
+     1>e:\programs\kinect_mapping\kinectmapping_online\kinectmapping\opencv2/flann/logger.h(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\programs\kinect_mapping\kinectmapping_online\kinectmapping\opencv2/flann/saving.h(77): warning C4995: “strcpy”: 名称被标记为 #pragma deprecated
+     1>e:\programs\kinect_mapping\kinectmapping_online\kinectmapping\opencv2/flann/saving.h(79): warning C4995: “strcpy”: 名称被标记为 #pragma deprecated
+     1>main.cpp(143): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>main.cpp(143): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>main.cpp(143): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programs\kinect_mapping\KinectMapping_online\Release\KinectMapping.exe" /INCREMENTAL:NO /NOLOGO OpenNI2.lib opencv_core230.lib opencv_imgproc230.lib opencv_highgui230.lib opencv_features2d230.lib ANN.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\KinectMapping.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\programs\kinect_mapping\KinectMapping_online\Release\KinectMapping.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programs\kinect_mapping\KinectMapping_online\Release\KinectMapping.lib" /MACHINE:X86 Release\Capture.obj
+         Release\ICP.obj
+         Release\KeyPointEsti.obj
+         Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         KinectMapping.vcxproj -> E:\programs\kinect_mapping\KinectMapping_online\Release\KinectMapping.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\programs\kinect_mapping\KinectMapping_online\Release\KinectMapping.exe;#1" /manifest Release\KinectMapping.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\KinectMapping.unsuccessfulbuild”。
+         正在对“Release\KinectMapping.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\programs\kinect_mapping\KinectMapping_online\KinectMapping\KinectMapping.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.10
